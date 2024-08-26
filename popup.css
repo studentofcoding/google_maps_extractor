@@ -1,0 +1,33 @@
+body {
+    width: 500px;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #status {
+    margin-top: 10px;
+  }
+  
+  #restaurantList {
+    list-style-type: none;
+    padding: 0;
+    max-height: 400px;
+    overflow-y: auto;
+  }
+  
+  #restaurantList li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  
+  #restaurantList li:last-child {
+    border-bottom: none;
+  }
